@@ -1,0 +1,128 @@
+﻿  Instrucciones.cpp
+  JuegoBruno.cpp
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(111): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(136): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(194): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(219): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(67): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(71): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(104): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(108): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(141): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(145): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(32): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(41): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(48): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(56): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(57): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(58): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(79): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(86): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(99): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(108): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(118): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(130): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(140): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(150): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegosolobruno.h(23): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  JuegoTyler.cpp
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(111): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(136): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(194): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(219): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(67): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(71): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(104): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(108): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(141): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(145): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(32): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(41): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(48): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(56): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(57): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(58): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(79): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(86): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(99): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(108): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(118): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(130): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(140): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(150): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegosolotyler.h(23): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  menu.cpp
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(111): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(136): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(194): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(219): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(67): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(71): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(104): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(108): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(141): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(145): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(32): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(41): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(48): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(56): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(57): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(58): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(79): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(86): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(99): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(108): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(118): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(130): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(140): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(150): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegosolotyler.h(23): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegomultiplayer.h(24): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegomultiplayer.h(25): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegosolobruno.h(23): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  MyForm.cpp
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(75): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(111): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(136): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: vea la declaración de 'strcpy'
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(194): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\players.h(219): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(67): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(71): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(104): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(108): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(141): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\disco.h(145): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(32): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(41): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(48): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(56): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(57): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(58): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(79): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(86): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(99): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(108): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(118): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(130): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(140): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\arrdisco.h(150): warning C4018: '<': no coinciden signed/unsigned
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegomultiplayer.h(24): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\usuario\desktop\elgran20deprogra\finalremastered\finalremastered\juegomultiplayer.h(25): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  Generando código...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  FINALRemastered.vcxproj -> C:\Users\Usuario\Desktop\ElGran20DeProgra\FINALRemastered\Release\FINALRemastered.exe

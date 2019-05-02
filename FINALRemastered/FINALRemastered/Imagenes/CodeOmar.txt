@@ -1,0 +1,154 @@
+#pragma once
+#include "ArrDisco.h"
+#include "Juego.h"
+namespace FINALRemastered {
+
+	using namespace System;
+	using namespace System::ComponentModel;
+	using namespace System::Collections;
+	using namespace System::Windows::Forms;
+	using namespace System::Data;
+	using namespace System::Drawing;
+
+	/// <summary>
+	/// Resumen de MyForm
+	/// </summary>
+	public ref class MyForm : public System::Windows::Forms::Form
+	{
+	private:
+		int cont;
+			int tiempo;
+	public:
+		Bitmap^bmpPersecutor = gcnew Bitmap("Imagenes\\discosinfondo2.png");
+		Bitmap^bmpDisco = gcnew Bitmap("Imagenes\\sierrasfinal.png");
+		Bitmap^bmpJugador = gcnew Bitmap("Imagenes\\zsigm2.png");
+		Bitmap^bmpMapa = gcnew Bitmap("Imagenes\\fondito.jpg");
+	private: System::Windows::Forms::Timer^  timer1;
+	public:
+		CArreglo *oArreglo;
+	private: System::Windows::Forms::ProgressBar^  progressBar1;
+	public:
+		CJuego * oJuego;
+		MyForm(void)
+		{
+			InitializeComponent();
+			//
+			//TODO: agregar código de constructor aquí
+			//
+			oJuego = new CJuego();
+			oArreglo = new CArreglo();
+			bmpDisco->MakeTransparent();
+			bmpPersecutor->MakeTransparent();
+		}
+
+	protected:
+		/// <summary>
+		/// Limpiar los recursos que se estén usando.
+		/// </summary>
+		~MyForm()
+		{
+			if (components)
+			{
+				delete components;
+			}
+		}
+	private: System::ComponentModel::IContainer^  components;
+	protected:
+
+	private:
+		/// <summary>
+		/// Variable del diseñador necesaria.
+		/// </summary>
+
+
+#pragma region Windows Form Designer generated code
+		/// <summary>
+		/// Método necesario para admitir el Diseñador. No se puede modificar
+		/// el contenido de este método con el editor de código.
+		/// </summary>
+		void InitializeComponent(void)
+		{
+			this->components = (gcnew System::ComponentModel::Container());
+			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
+			this->progressBar1 = (gcnew System::Windows::Forms::ProgressBar());
+			this->SuspendLayout();
+			// 
+			// timer1
+			// 
+			this->timer1->Enabled = true;
+			this->timer1->Interval = 5;
+			this->timer1->Tick += gcnew System::EventHandler(this, &MyForm::timer1_Tick);
+			// 
+			// progressBar1
+			// 
+			this->progressBar1->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->progressBar1->ForeColor = System::Drawing::SystemColors::GradientActiveCaption;
+			this->progressBar1->Location = System::Drawing::Point(12, 738);
+			this->progressBar1->Name = L"progressBar1";
+			this->progressBar1->Size = System::Drawing::Size(712, 24);
+			this->progressBar1->TabIndex = 0;
+			this->progressBar1->Click += gcnew System::EventHandler(this, &MyForm::progressBar1_Click);
+			// 
+			// MyForm
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(736, 774);
+			this->Controls->Add(this->progressBar1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->Margin = System::Windows::Forms::Padding(2);
+			this->Name = L"MyForm";
+			this->Text = L"MyForm";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
+			this->KeyDown += gcnew System::Windows::Forms::KeyEventHandler(this, &MyForm::MyForm_KeyDown);
+			this->KeyUp += gcnew System::Windows::Forms::KeyEventHandler(this, &MyForm::MyForm_KeyUp);
+			this->ResumeLayout(false);
+
+		}
+#pragma endregion
+	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
+		Graphics^g = this->CreateGraphics();
+		BufferedGraphicsContext^espacio = BufferedGraphicsManager::Current;
+		BufferedGraphics^buffer = espacio->Allocate(g, this->ClientRectangle);
+		buffer->Graphics->DrawImage(bmpMapa, 0, 0, this->Width, this->Height);
+		oArreglo->dibujar(buffer->Graphics, bmpDisco);
+		oArreglo->dibujarp(buffer->Graphics, bmpPersecutor, 50, 50);
+		oJuego->ProcesarTick(buffer->Graphics);
+		buffer->Render(g);
+		
+		delete buffer, espacio, g;
+		cont++;
+		if (cont == 19)
+		{
+			tiempo++;
+			progressBar1->Increment(1);
+			cont = 0;
+		}
+	}
+	private: System::Void MyForm_KeyDown(System::Object^  sender, System::Windows::Forms::KeyEventArgs^  e) {
+		oJuego->ProcesarKeyDown(e->KeyCode);
+		oJuego->ProcesarKeyDown2(e->KeyCode);
+		switch (e->KeyCode)
+		{
+		case Keys::Space:
+			oArreglo->agregarDisco();
+			oArreglo->agregarPersecutor();
+			break;
+		default:
+			break;
+		}
+		
+	}
+	private: System::Void MyForm_KeyUp(System::Object^  sender, System::Windows::Forms::KeyEventArgs^  e) {
+		oJuego->ProcesarKeyUp(e->KeyCode);
+		oJuego->ProcesarKeyUp2(e->KeyCode);
+	}
+	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
+	}
+private: System::Void progressBar1_Click(System::Object^  sender, System::EventArgs^  e) {
+
+
+
+}
+};
+}
